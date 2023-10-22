@@ -1,0 +1,200 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.main_1 {
+    height: 930px;
+    background: var(--Black-5, rgba(30, 40, 50, 0.05));
+}
+
+.div1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 38px;
+}
+
+.poisk {
+    width: 20px;
+    height: 19px;
+}
+
+.icon {
+    width: 31px;
+    height: 15px;
+    flex-shrink: 0;
+}
+
+.CORAL {
+    color: var(--Dark, #000);
+    font-family: AmstelvarAlpha;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.AccountIcon {
+    width: 20px;
+    height: 19px;
+}
+
+.Account {
+    color: var(--Black, #1E2832);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.ShopingIcon {
+    width: 20px;
+    height: 19px;
+}
+
+.Shoping {
+    color: var(--Black, #1E2832);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.div2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    margin-left: 100px;
+}
+
+.div3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+
+.div4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+
+.div_ {
+    display: flex;
+    gap: 15px;
+}
+
+.hr {
+    background: #E3E3E3;
+    width: 73%;
+    opacity: 0.3;
+    margin-left: 255px;
+}
+
+.div5 {
+    display: flex;
+    gap: 68px;
+    margin-left: 260px;
+    margin-top: 20px;
+}
+
+.p1 {
+    color: var(--Dark, #000);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: capitalize;
+}
+
+.collection {
+    color: var(--Dark, #000);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 74px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 55px;
+    text-transform: capitalize;
+}
+
+.p_ {
+    color: var(--Dark, #000);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 55px;
+    text-transform: capitalize;
+    margin-top: 52px;
+}
+
+.button {
+    border: none;
+    width: 223px;
+    height: 72px;
+    cursor: pointer;
+    background: black;
+    color: var(--White, #FFF);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 62px;
+}
+
+.img1 {
+    margin-right: 5px;
+}
+
+.div6 {
+    margin-left: 300px;
+    margin-top: 155px;
+}
+
+.border {
+    width: 424px;
+    border-radius: 160px 0px;
+    border: 2px solid var(--Dark-25, rgba(0, 0, 0, 0.25));
+    height: 542px;
+    flex-shrink: 0;
+    margin-top: 101px;
+}
+
+.div7 {
+    display: flex;
+    gap: 100px;
+}
+
+.img2 {
+    position: relative;
+    right: 20px;
+    bottom: 20px;
+}
+
+.Vector {
+    bottom: 400px;
+    position: relative;
+    left: 1600px;
+}
+
+.Frame {
+    bottom: 300px;
+    position: relative;
+}
