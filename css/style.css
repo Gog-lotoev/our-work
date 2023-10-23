@@ -157,6 +157,10 @@
     line-height: normal;
     text-transform: capitalize;
     margin-top: 62px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
 }
 
 .img1 {
@@ -199,6 +203,35 @@
     position: relative;
 }
 
-.g {
-    background-color: blue;
+.img_div {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 90px;
+}
+
+.img_div1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img_div2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Explore {
+    color: var(--Dark, #000);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    width: 648px;
+    height: 52px;
+    transform: rotate(90deg);
+    flex-shrink: 0;
 }
